@@ -1,4 +1,3 @@
-// lib/pages/registration_page.dart
 import 'package:flutter/material.dart';
 import 'login_page.dart';
 
@@ -25,8 +24,6 @@ class RegistrationPage extends StatelessWidget {
             SizedBox(height: 25.0),
             ElevatedButton(
               onPressed: () {
-                // TODO: Implement registration functionality
-                // For now, let's just navigate back to the login page
                 Navigator.pop(context);
               },
               child: Text('Register'),
